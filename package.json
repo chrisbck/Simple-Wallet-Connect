@@ -1,0 +1,33 @@
+{
+  "name": "simple-wallet-connect",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "postinstall": "npx papi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@reactive-dot/core": "^0.38.1",
+    "@reactive-dot/react": "^0.39.1",
+    "@reactive-dot/wallet-ledger": "^0.16.31",
+    "@reactive-dot/wallet-walletconnect": "^0.17.11",
+    "dot-connect": "^0.18.0",
+    "polkadot-api": "^1.9.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.13"
+  }
+}
